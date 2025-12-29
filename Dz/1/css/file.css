@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+body{
+  font-family: "Tagesschrift", system-ui;
+  background-color: #e7e7e7;
+}
+
+div{
+    align-items: center;
+}
+.ci {
+    align-items: center;
+    display: inline-block;  
+    margin: 10px;
+    border: 2px solid #333; 
+    border-radius: 20px;     
+    padding: 10px 20px; 
+
+
+}
+
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+h1, h3{
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.f {
+    background: #2e516f;
+    color: white;
+    padding: 30px 0 10px;
+}
+
+.f-cont {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-column {
+    float: left;
+    width: 30%;
+}
+
+.footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    width: 10%;
+}
+
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fb:hover {
+    content: url("img/fb.png");
+    
+}
+
+.ig:hover {
+    content:  url("img/insta.png");
+}
+
+.yt:hover {
+    content: url("img/youtube.png");
+}
+
+.f-bot {
+ 
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    font-size: 12px;
+}
